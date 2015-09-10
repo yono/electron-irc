@@ -1,12 +1,19 @@
 {
   "name": "electron-irc",
   "version": "0.0.1",
-  "description": "",
+  "description": "IRC Client by Electron",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "author": "Yusaku ONO",
+  "license": "MIT",
+  "dependencies": {
+    "slate-irc": ""
+  },
+  "devDependencies": {
+    "electron-prebuilt": ""
+  }
 }
